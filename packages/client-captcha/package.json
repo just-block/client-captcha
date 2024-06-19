@@ -1,0 +1,26 @@
+{
+  "name": "client-captcha",
+  "version": "0.8.5",
+  "description": "Simple and lightweight client-side captcha generator",
+  "keywords": ["captcha", "client-side captcha", "react captcha", "vanilla js captcha", "canvas captcha"],
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "source": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "author": "https://github.com/kubk",
+  "license": "MIT",
+  "main": "./dist/client-captcha.cjs",
+  "module": "./dist/client-captcha.module.js",
+  "scripts": {
+    "build": "microbundle",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Running tests for client-captcha\"",
+    "typecheck": "npx tsc --noEmit",
+    "lint": "echo \"Running lint for client-captcha\""
+  },
+  "devDependencies": {
+    "microbundle": "^0.15.0"
+  }
+}
