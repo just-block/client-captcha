@@ -12,7 +12,7 @@
 - 🛠️ Typescript support out of the box
 - 🪶 Lightweight (~1 kb gzipped)
 - 🔄 Feel free to override alphabet or length of the captcha
-- 🚀 Battle-tested in production. Powers the [JustBlock extension](https://just-block.com)
+- 🚀 Battle-tested in production. Powers the [JustBlock extension](https://just-block.github.io/)
 
 ### Installation
 
